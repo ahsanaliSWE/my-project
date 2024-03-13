@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "directories",
+  "info": {
+    "singularName": "directory",
+    "pluralName": "directories",
+    "displayName": "directory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ext": {
+      "type": "biginteger"
+    },
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "position": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
